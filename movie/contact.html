@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Entertainment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function submitForm() {
+            // Get form values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var subject = document.getElementById("subject").value;
+            var message = document.getElementById("message").value;
+
+            // Here, you can perform any JavaScript actions you want with the form data.
+            // For example, you could send the data to a server using AJAX.
+
+            // Display a confirmation message (you can customize this)
+            alert("Form submitted successfully!");
+
+            // Clear the form fields
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("message").value = "";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Movie Website </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contact Us</h1>
+    
+    <p>Thank you for visiting Entertainment, your ultimate destination for all things movies and entertainment. We value your feedback and are committed to providing you with the best possible experience. Whether you have a question, suggestion, or just want to get in touch, we're here to assist you.</p>
+
+    <h2>Customer Support</h2>
+    <p>If you have any inquiries regarding your account, technical issues with the website, or general questions, our dedicated customer support team is ready to help you. You can reach them via email at <a href="mailto:support@entertainment.com">support@entertainment.com</a> or by filling out the contact form below. Our team strives to respond to your inquiries promptly.</p>
+
+    <h2>Advertising and Partnerships</h2>
+    <p>For advertising inquiries, partnerships, or any business-related matters, please contact our business development team at <a href="mailto:partnerships@entertainment.com">partnerships@entertainment.com</a>. We welcome collaborations that align with our mission to bring the best movie and entertainment content to our audience.</p>
+
+    <h2>Media and Press</h2>
+    <p>Members of the media looking for information, interviews, or press releases related to Entertainment can contact our media relations team at <a href="mailto:media@entertainment.com">media@entertainment.com</a>. We are always happy to provide accurate and timely information to support your coverage.</p>
+
+    <h2>Content Submission</h2>
+    <p>If you are a content creator interested in submitting your work, such as movie reviews, articles, or videos, please visit our "Contribute" page for more information on how to become a contributor to Entertainment. You can also email us at <a href="mailto:content@entertainment.com">content@entertainment.com</a> for content-related inquiries.</p>
+
+    <h2>General Inquiries</h2>
+    <p>For all other inquiries or feedback, please use the contact form below. We appreciate your thoughts and suggestions, which help us enhance your experience on Entertainment.</p>
+
+    <h3>Contact Form</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="button" value="Submit" onclick="submitForm()">
+    </form>
+
+    <!-- ... (Remaining content) -->
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="head">Welcome to our Movie Website</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <div id="search-container" class="search-box">
+            <input type="text" id="search-input" class="search-input" placeholder="Search for movies...">
+            <button id="search-button" class="search-button">Search</button>
+        </div>
+        <div id="results"></div>
+
+
+
+        <aside id="sidebar">
+            <h2>Movie Years</h2>
+            <br>
+            <ul>
+                <li><a href="#">2023</a></li>
+                <li><a href="#">2022</a></li>
+                <li><a href="#">2021</a></li>
+                <!-- Add more years as needed -->
+            </ul>
+        </aside>
+        
+<!------------------------------------------upcoming-movies ------------------------------------------------>       
+<section id="upcoming-movies">
+            <h2 class="movie-header1">Upcoming Movies</h2>
+            <div class="movie-container">
+            <div class="movie">
+                <img src="redu/img0.jpg" alt="Movie 1">            
+                <h3>Leo</h3>
+                <p>Release Date: october 19, 2023</p>
+               
+                <div class="show">
+                    <img src="sid/img0.jpg" alt="Movie 1">
+                    <img src="sid/img1.jpg" alt="Movie 2">
+                       
+            </div>    
+            </div>     
+            <div class="movie">
+                <img src="redu/img4.jpg" alt="Movie 2">
+                <h3>Movie 2</h3>
+                <p>Release Date: February 15, 2024</p>
+
+                <div class="show">
+                    <img src="sid/img2.jpg" alt="Movie 1">
+                    <img src="sid/img3.jpg" alt="Movie 2">
+                </div>
+            </div>
+            <!-- Add more upcoming movies as needed -->
+            <div class="movie">
+                <img src="redu/img5.jpg" alt="Movie 2">
+                <h3>Movie 2</h3>
+                <p>Release Date: February 15, 2024</p>
+                
+                
+                <div class="show">
+                    <img src="sid/img4.jpg" alt="Movie 1">
+                    <img src="sid/img5.jpg" alt="Movie 2">
+                </div>
+            </div>
+            <div class="movie">
+                <img src="redu/img6.jpg" alt="Movie 2">
+                <h3>Movie 2</h3>
+                <p>Release Date: February 15, 2024</p>
+                <div class="show">
+                    <img src="sid/img6.jpg" alt="Movie 1">
+                    <img src="sid/img7.jpg" alt="Movie 2">
+                </div>
+                
+            </div>
+        </div>
+            <button id="see-more-button">See More</button>
+        </section>
+        
+        <br>
+<!------------------------------------------ Featured movies(top movies) ---------------------------------------------------->
+<section id="featured-movies">
+    
+            <h2 class="movie-header">Top Movies</h2>
+            <div class="movie-container">
+            <div class="movie">               
+                <img src="top/img0.jpg" alt="Movie 3">
+                <h3>Inception</h3>
+                <p>Release Date: July 16, 2010</p>
+                <div class="video">
+                    <video id="featured-video" width="300" height="200" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                    </video>
+                   
+                </div>  
+                <div class="movie-feedback">
+                    <button class="like-button">Like</button>
+                    <button class="dislike-button">Dislike</button>
+                    <div class="feedback-percentage">Like: 0% | Dislike: 0%</div>
+                </div>
+                </div>
+                </div>     
+              
+            <div class="movie">              
+                <img src="top/img1.jpg" alt="Movie 4">
+                <h3>The Dark Knight</h3>
+                <p>Release Date: July 18, 2008</p>
+            </div>
+            <div class="movie">              
+                <img src="top/img2.jpg" alt="Movie 4">
+                <h3>Sita Ramam</h3>
+                <p>Release Date: August 5, 2022</p>
+                <div class="video">
+                    <video id="featured-video" width="300" height="200" controls>
+                        <source src="videos/video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+               
+                </div>
+                
+                </div>
+            </div>
+            <div class="movie">              
+                <img src="top/img3.jpg" alt="Movie 4">
+                <h3>777 Charlie</h3>
+                <p>Release Date: June 10, 2022</p>
+            </div>
+            <div class="video">
+                <video id="featured-video" width="300" height="200" controls>
+                    <source src="videos/video3.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+        </div>
+            <button id="see-more-button2">See More</button>
+            <!-- Add more featured movies as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <div class="p-row-oppiste">
+                <button id="themeButton">Toggle Theme</button>
+                <ul class="p-row-linklist">
+                    <li>
+                        <a href="contact.html">contact-us</a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy.html">Terms and rules</a>
+                    </li>
+                    <li>
+                        <a href="privacy plociy.html">Privacy Plociy</a>
+                    </li>
+                    <li>
+                        <a href=" ">help</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        <p class="fop">&copy; 2023 Movie Website</p>
+        
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
